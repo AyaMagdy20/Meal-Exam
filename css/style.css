@@ -1,0 +1,72 @@
+body {
+  background-color: #0d0d0d;
+}
+.img-con {
+  overflow: hidden;
+  margin-top: 60px;
+}
+.img-con .layer {
+  background-color: white;
+  opacity: 0.8;
+  top: 100%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.img-con .layer .meal-name {
+  font-size: 28px;
+  z-index: 2;
+  margin-left: 10px;
+}
+.img-con:hover .layer {
+  top: 0%;
+}
+
+.menu {
+  left: -320px;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: auto;
+  overflow: hidden;
+  background-color: #0d0d0d;
+  /* padding-right: 20px; */
+}
+.icons {
+  margin-top: 400px;
+}
+.icons .icon {
+  padding: 10px;
+}
+.b-icon {
+  padding-bottom: 10px;
+}
+.bottom-icons {
+  padding-bottom: 10px;
+}
+.form-control {
+  background-color: transparent;
+  color: white !important;
+}
+.form-control::placeholder {
+  color: rgb(228, 228, 228);
+}
+.form-control:focus {
+  background-color: transparent;
+}
+.area-icon {
+  font-size: 48px;
+  color: aliceblue;
+}
+.contact {
+  margin-bottom: 40px;
+}
+.recipie {
+  border: #0d0d0d 1px solid;
+  margin-top: 20px;
+}
